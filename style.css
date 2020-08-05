@@ -1,5 +1,10 @@
 body {
+	background-image: url(aldi.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	background-color: darkgrey;
+	color: black
 }
 
 .intro {
@@ -26,12 +31,6 @@ body {
 	font-color: lightgrey;	
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
-}
 
 .grocery {
 	width: 800px;
