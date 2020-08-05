@@ -71,7 +71,7 @@ $.getJSON("GroceryStoresChicago.geojson",function(data){
 		pointToLayer: function(feature, latlng) {
 			var storesColor;
 			var storeName = feature.properties.STORE_NAME;
-			if ( storeName == "ALDI" ) storeName = "blue";
+			if ( storeName == "ALDI" ) storeName = "orange";
 			else storeSize = "red";
 			return new L.CircleMarker(latlng, 
 				{	radius: 5,
