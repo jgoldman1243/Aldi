@@ -13,7 +13,6 @@ body {
 	border: 10px;
 	padding: 15px;
 	margin: auto;
-	opacity: .5;
 }
 
 .intro h1 {
@@ -30,20 +29,13 @@ body {
 	font-size: 30pt;
 	font-color: lightgrey;	
 }
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
+	
 .grocery {
 	width: 800px;
 	background-color: grey;
 	border: 10px;
 	padding: 15px;
 	margin: auto;
-	opacity: .5;
  
 }
 
